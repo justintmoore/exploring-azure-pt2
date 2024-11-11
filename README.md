@@ -15,7 +15,8 @@ I will create a Windows 10 VM with remote desktop protocol enabled. The second V
 
 
 ## Environments Used 
-- Windows 11
+- Windows 10
+- Ubuntu Server 2022
 
 
 ## Program walk-through  
