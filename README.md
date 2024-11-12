@@ -1,6 +1,6 @@
 # Exploring Azure Part 2
 
- ### [YouTube Demonstration](https://youtu.be/AYW6kEUMDEI)
+ ### [YouTube Demonstration](https://www.youtube.com/watch?v=6IRrHUzmO7A&t=2s)
 
 ## Description
 This will be a continuation of the previous Azure walkthrough. In this walkthrough, like in part 1 I will create a resource group that will house our resources. This time we will be creating 2 Virtual Machines (VMs), a virtual network, a corresponding subnet, where both VMs will be.
