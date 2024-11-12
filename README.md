@@ -20,10 +20,43 @@ I will create a Windows 10 VM with remote desktop protocol enabled. The second V
 
 
 ## Program walk-through  
-- 
 
+- If you haven't read the first walkthrough, stop and go read it. I will omit a few steps to prevent making this too lengthy.
+  
+- Navigate to the Azure home portal https://portal.azure.com/#home
+  
+- Create a resource group  
+  <img src="https://github.com/user-attachments/assets/0563c539-d3ed-4299-8450-beee7f705001" height="70%" width="70%" alt="lab2rg"/>  
+  
+- In the search bar at the top type "virutal machine" and select it.
+  
+- Create a new Azure virtual machine
+  <img src="https://github.com/user-attachments/assets/4fbd37cf-170a-4fd1-a65b-2518f3af565c" height="70%" width="70%" alt="createvmwindow"/>
+  
+- Ensure you choose the right subscription and your created resource group
+- Name the VM, and ensuring it's the right region. I'll be naming my VM "windows10-vm"
+- Under image, choose the correct OS, in this case choose windows10 pro, version 22H2
+- Under size, choose at least 2 vcpus
+- Create your administrator account, choosing a username and password.
+- Confirm Windows 10/11 license hosting rights, then click next until you come to "Networking"
+- Under Virtual Network you can use the default or you can choose your own. I created my own named "lab-net".  Choose the default subnet of 10.0.0.0/24  
+  <img src="https://github.com/user-attachments/assets/ed7f93e6-ec1a-43c2-96c4-ce0a5a716ce3" height="70%" width="70%" alt="labvent"/>  
+- Click "Review and Create", allow system to validate... Click Create
+- When it's done it should look like this.
+  <img src="https://github.com/user-attachments/assets/b1d0c244-40c2-4499-9c03-4aeff6c432ef" height="70%" width="70%" alt="ResourceGroups"/>
+- After that create another VM using a Ubuntu Server 2022 image, ensuring it's under the same vnet and same default subnet.
+  <img src="https://github.com/user-attachments/assets/1b9c2cbf-2b70-45a4-8f95-d9e43acca6aa" height="70%" width="70%" alt="ubuntu1"/>
+- Under Administrator account, Authentication type, choose password, and enter your credentials.  
+  <img src="https://github.com/user-attachments/assets/acc81e92-2c7a-46c7-b9b2-cd1b92a5150d" height="70%" width="70%" alt="ubuntu2"/>
+- Create your VM, and ensure that both your windows vm and ubuntu vm have the same vnet, subnet, and resource groups.  
 
+<b><a href="https://github.com/justintmoore/exploring-azure-pt3">Continue to Exploring Azure Part 3</a><b/>
 
+  
+  
+
+<!--
+<img src="https://github.com/user-attachments/assets/b24167a1-a3a1-43db-921e-115e7f18673b" height="70%" width="70%" alt="ResourceGroups"/>
 
 
 
