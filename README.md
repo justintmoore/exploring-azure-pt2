@@ -44,7 +44,7 @@ I will create a Windows 10 VM with remote desktop protocol enabled. The second V
 - Click "Review and Create", allow system to validate... Click Create
 - When it's done it should look like this.
   <img src="https://github.com/user-attachments/assets/b1d0c244-40c2-4499-9c03-4aeff6c432ef" height="70%" width="70%" alt="ResourceGroups"/>
-- After that create another VM using a Ubuntu Server 2022 image, ensuring it's under the same vnet and same default subnet.
+- After that create another VM using a Ubuntu Server 2022 image, ensuring it's under the same vnet and same default subnet.  
   <img src="https://github.com/user-attachments/assets/1b9c2cbf-2b70-45a4-8f95-d9e43acca6aa" height="70%" width="70%" alt="ubuntu1"/>
 - Under Administrator account, Authentication type, choose password, and enter your credentials.  
   <img src="https://github.com/user-attachments/assets/acc81e92-2c7a-46c7-b9b2-cd1b92a5150d" height="70%" width="70%" alt="ubuntu2"/>
